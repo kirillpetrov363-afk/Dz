@@ -36,28 +36,20 @@ def menu():
     print("5.Словарь чисел и их факториалов")
     print("0.Exit")
     print("\n")
-#Выбор функции/подзаданиия в задании(основно циккл)
 #Выбор функции/подзаданиия в задании
 while True:
     menu()
-    choice = input("Введите номер пункта(0-5):")
-    if choice == '1':
     op = input("Введите номер пункта(0-5):")
     if op == '1':
         squares()
-    elif choice == '2':
     elif op == '2':
         days()
-    elif choice == '3':
     elif op == '3':
         tags()
-    elif choice == '4':
     elif op == '4':
         numbers()
-    elif choice == '5':
     elif op == '5':
         factorials()
-    elif choice == '0':
     elif op == '0':
         print("\nВыход")
         break
