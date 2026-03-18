@@ -20,7 +20,7 @@ def append_to_file(text, filename):
     for number, line in enumerate(lines, start=1):
 #Проверяем чётный ли номер строки
         if number % 2 == 0:
-#rstrip('\n') удаляет символ перевода строки в конце,Строка {number}-выводит строка(номер)
+#rstrip'\n' удаляет символ перевода строки в конце,Строка {number}-выводит строка(номер)
             print(f"Строка {number}: {line.rstrip('\n')}")
             
 #Добавляем первую строку

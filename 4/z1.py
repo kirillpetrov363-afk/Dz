@@ -25,7 +25,7 @@ def factorials():
     fact = {i: factorial(i) for i in range(1, 6)}
     print("\nСловарь чисел и их факториалов:", fact)
 #Меню выбора
-def show_menu():
+def menu():
     print("\n")
     print("Меню:")
     print("\n")
@@ -38,7 +38,7 @@ def show_menu():
     print("\n")
 #Выбор функции/подзаданиия в задании(основно циккл)
 while True:
-    show_menu()
+    menu()
     choice = input("Введите номер пункта(0-5):")
     if choice == '1':
         squares()
