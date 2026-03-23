@@ -9,8 +9,7 @@ for i in range(100):
 mean = statistics.mean(numbers)
 median = statistics.median(numbers)
 stdev = statistics.stdev(numbers)
-total_sum = sum(numbers)
-sqrt = round(math.sqrt(total_sum), 2)
+sqrt = round(math.sqrt(sum(numbers)), 2)
 
 print("\n", f"Среднее: {round(mean, 2)}, Медиана: {median}, "
       f"Стандартное отклонение: {round(stdev, 2)}, "
