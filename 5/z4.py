@@ -20,4 +20,4 @@ for i in range(len(dates) - 1):
 
     diff = abs(dates[i + 1] - dates[i])
 
-    print("Разница между", d1, "и", d2, ":", diff, "дней")
+    print("Разница между", d1, "и", d2, ":", diff, "дней")    print("Разница между", d1, "и", d2, ":", diff, "дней")
